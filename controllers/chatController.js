@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
-const Appointment = require("../models/appointment");
-const Admin = require("../models/admin");
-const User = require("../models/user");
+const Appointment = require("../models/Appointment");
+const Admin = require("../models/Admin");
+const User = require("../models/User");
 
 // In-memory session store (replace with Redis/DB in production)
 const sessions = {};
